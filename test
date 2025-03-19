@@ -8,20 +8,5 @@ def countTargetPairs(nums):
                     TrPairs += 1
     return TrPairs
 
-nums = []
+nums = [0]
 print(countTargetPairs(nums))
-       
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
