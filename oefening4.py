@@ -1,8 +1,3 @@
-
-
-
-target = int(input("input target"))
-nums = list(map(int, input("lijst").split(",")))
 def countTargetPairs(nums, target):
     
     TrPairs = 0
@@ -12,9 +7,6 @@ def countTargetPairs(nums, target):
                 if nums[i] + nums[j] < target:
                     TrPairs += 1
     return TrPairs
-
-
-print(countTargetPairs(nums, target))
 
 
 
